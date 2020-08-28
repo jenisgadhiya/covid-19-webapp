@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="/css/style.css" rel="stylesheet">
+        <script src="/js/app.js"></script>
+    </head>
+
+    <body>
+        {{>header}}
+        <p>Use this site to get covid-19 update</p>
+        <input type="text" id="sname" placeholder="Enter State name..">
+        <button id="search" onclick="getsname()">Search</button>
+        <br><br>
+        <h4 id="load"></h4>
+        <div id="out"></div>
+    </body>
+
+    {{>footer}}
+</html>
