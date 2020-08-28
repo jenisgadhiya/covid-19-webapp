@@ -8,7 +8,7 @@ body{
 
 header h1{
 
-    color: cornflowerblue;
+    color: rgb(17, 17, 17);
     margin-top: 16px;
     margin-bottom: 48px;
 
@@ -17,16 +17,17 @@ header h1{
 footer{
     position: absolute;
     bottom: 0px;
-    background-color: #9e90da;
+    background-color: #333;
     border: 1px solid #eeeeee;
     margin-bottom: 16px;
-    padding: 16px 16px;
-    width: 500px;
+    padding: 0 10px;
+    width: 650px;
+    height: auto;
 }
 footer p{
 
     
-    color: rebeccapurple;
+    color: whitesmoke;
 }
 
 h1{
@@ -49,7 +50,7 @@ header a{
     width: 100px;
     height: 35px;
     border: 2px groove rgb(80, 97, 64);
-    background-color: rgb(211, 94, 27);
+    background-color: rgb(136, 128, 124);
     color: rgb(13, 3, 32);
 }
 
@@ -64,7 +65,7 @@ header a{
 
 div > a{
 
-    color: white;
+    color: whitesmoke;
     text-align: center;
     padding: 10px;
     border-right: 1px solid blanchedalmond;
@@ -80,4 +81,14 @@ header > div{
 
 div > a:hover{
     background-color: #111;
+}
+
+#line{
+    color: rgb(5, 1, 10);
+    margin: 16px;
+
+}
+.con{
+    color: #333;
+    
 }
