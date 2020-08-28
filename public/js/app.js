@@ -16,7 +16,7 @@ function getsname(){
         }else{
             html="<h3>"+data.State+" state covid-19 case details...</h3>"
        
-            html+="<h4 class='con'>State: "+data.State+"<br><br>Confirmed: "+data.Confirmed+"<br><br>Active: "+data.Active+"<br><br>Recovered: "+data.Recovered+"<br><br>Deaths: "+data.Death+"</h4>";
+            html+="<h4 class='con'>State: "+data.State+"<br><br>Confirmed: "+data.Confirmed+"<br><br>Active: "+data.Active+"<br><br>Recovered: "+data.Recovered+"<br><br>Deaths: "+data.Death+"<br><br>Last Update:"+data.Lastupdate+"</h4>";
             out.innerHTML=html;
         }
     })

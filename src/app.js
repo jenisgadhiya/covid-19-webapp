@@ -55,7 +55,8 @@ request({url:url,json:true}, (error, response) =>{
                 "Confirmed": response.body.statewise[i].confirmed, 
                 "Active": response.body.statewise[i].active,  
                 "Recovered": response.body.statewise[i].recovered,   
-                "Death": response.body.statewise[i].deaths 
+                "Death": response.body.statewise[i].deaths,
+                "Lastupdate":response.body.statewise[i].lastupdatedtime
             }); 
         } 
         const a=data.find(f=>f.State.toLowerCase().replace(/\s+/g, '')==state.toLowerCase().replace(/\s+/g, ''));
