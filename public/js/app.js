@@ -7,7 +7,7 @@ function getsname(){
     out=document.getElementById('out');
     out.innerHTML="loading....."
     console.log(sname)
-    fetch('http://localhost:3000/covid-19?state='+sname).then(response=>{
+    fetch('/covid-19?state='+sname).then(response=>{
 
     response.json().then(data=>{
         if(data.error){
